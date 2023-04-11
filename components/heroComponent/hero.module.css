@@ -1,0 +1,23 @@
+.heroDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("/Hero.png");
+  background-size: 100% 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.navbarButton {
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  border: 0px;
+}
