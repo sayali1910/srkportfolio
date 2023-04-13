@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  background-color: #514048;
+}
+.navbarButton {
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid #877365;
+  color: bisque;
+  padding: 10px;
+  border-radius: 30px;
+}
+.main0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("/1.png");
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("/2.png");
+}
+.main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("/3.png");
+}
+
+.main3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("/4.png");
+}
+
+.main4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("/5.png");
+}
+
+.main5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("/6.png");
+}
+
+.main6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("/7.png");
+}
