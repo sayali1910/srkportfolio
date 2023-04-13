@@ -32,40 +32,26 @@ const NavbarComponent = () => {
         </ScrollLink>
       </div>
       <div className={styles.main0} id="section-0">
-        <section className="flex flex-col items-center gap-4">
-          <h2 className="text-xl my-2">Section 1</h2>
-        </section>
+        <h2 className={styles.heading}>Hi There!</h2>
       </div>
-      <section className={styles.main1} id="section-1">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl my-2">About Me</h2>
-        </div>
-      </section>
-      <section className={styles.main2} id="section-2">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl my-2">My Experience</h2>
-        </div>
-      </section>
-      <section className={styles.main3} id="section-3">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl my-2">Skills</h2>
-        </div>
-      </section>
-      <section className={styles.main4} id="section-4">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl my-2">Projects</h2>
-        </div>
-      </section>
-      <section className={styles.main5} id="section-5">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl my-2">Interest</h2>
-        </div>
-      </section>
-      <section className={styles.main6} id="section-6">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl my-2">Contact</h2>
-        </div>
-      </section>
+      <div className={styles.main1} id="section-1">
+        <h2 className={styles.heading}>About Me</h2>
+      </div>
+      <div className={styles.main2} id="section-2">
+        <h2 className={styles.heading}>My Experience</h2>
+      </div>
+      <div className={styles.main3} id="section-3">
+        <h2 className={styles.heading}>Skills</h2>
+      </div>
+      <div className={styles.main4} id="section-4">
+        <h2 className={styles.heading}>Projects</h2>
+      </div>
+      <div className={styles.main5} id="section-5">
+        <h2 className={styles.heading}>Interest</h2>
+      </div>
+      <div className={styles.main6} id="section-6">
+        <h2 className={styles.heading}>Contact</h2>
+      </div>
     </>
   );
 };
