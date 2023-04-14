@@ -2,22 +2,57 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100vw;
-  background-image: url("/Hero.png");
+  margin-top: 50px;
+}
+.heroHeading {
+  color: #ffe4c4;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+.heroParagraph {
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 20px;
+}
+.resumeButton {
+  background-image: url("/Resume.png");
   background-size: 100% 100%;
+  width: 100px;
+  height: 100px;
+  animation: tilt-shaking 0.25s infinite;
 }
-.navbar {
+.popupResume {
+  display: none;
+  background-image: url("/resumePopUp.png");
+  background-size: 100% 100%;
+  width: 200px;
+  height: 40px;
+}
+
+.resumeButton:hover + .popupResume {
+  display: block;
+  color: red;
+}
+.resume {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
 }
-.navbarButton {
-  margin: 10px;
-  background-color: white;
-  padding: 10px;
-  border-radius: 30px;
-  border: 0px;
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

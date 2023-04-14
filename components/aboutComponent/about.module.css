@@ -1,8 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-size: 100% 100%;
+  min-width: 100vw;
+  padding-left: 50px;
 }
