@@ -4,6 +4,10 @@ import ScrollLink from "../scrollLink";
 import { TypeAnimation } from "react-type-animation";
 import HeroComponent from "../heroComponent";
 import AboutComponent from "../aboutComponent";
+import Experience from "../experienceComponent";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
+
 const NavbarComponent = () => {
   const [section, setSection] = useState<string>("Hero");
   const handleChange = (section: string) => {
@@ -52,6 +56,9 @@ const NavbarComponent = () => {
       </div>
       <div className={styles.main2} id="section-2">
         <h2 className={styles.heading}>Professional Timeline</h2>
+        <DndProvider backend={HTML5Backend}>
+          <Experience />
+        </DndProvider>
       </div>
       <div className={styles.main3} id="section-3">
         <h2 className={styles.heading}>The Tools in My Toolbox</h2>
